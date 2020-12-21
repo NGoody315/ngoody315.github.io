@@ -5,33 +5,27 @@ header h1{
     text-align: center;
 }
 
-.body {
-    padding: 0 200px 0 200px;
-}
+.bio {
+    position: relative;
+    top: 50px;
+    right: 700px;
+    bottom: 500px;
+    left: 100px;
+}  
 
-.main-bio p {
-    text-align: center;
-    float: right;
+.bio p {
     position: absolute;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 50px;
+    left: 250px;
+    text-align: center;
+    margin: 5px;
+    border: 5px solid black;
+    padding: 10px;
 }
 
-.main-bio img {
-    float: left;
+.contact {
+    position: relative;
+    top: 0;
+    right: 50px;
+    left: 75%;
 }
-
-.main-bio p {
-    width: 70%;
-  }
-  
-.contact-info {
-    width: 30%;
-    float: right;
-  }
-  
-.main-bio image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-  
